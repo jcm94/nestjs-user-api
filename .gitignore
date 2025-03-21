@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Directorio de compilación
+dist/
+
+# Archivos de entorno (variables de entorno sensibles)
+.env
+
+# Configuraciones de IDEs
+.vscode/
+.idea/
+
