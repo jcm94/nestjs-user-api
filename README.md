@@ -13,7 +13,7 @@ Esta API de usuarios permite el registro, inicio de sesión y operaciones CRUD p
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/jcm94/nestjs-user-api.git
    ```
 2. Instala las dependencias:
    ```bash
@@ -37,4 +37,7 @@ Accede a Swagger en: [http://localhost:3000/api](http://localhost:3000/api)
 ## Pruebas
 
 Utiliza herramientas como Postman para probar los endpoints de la API.
+
+> Nota: Para probar el flujo completo desde [Swagger](http://localhost:3000/api) puede obtener el token de JWT utilizando las herramientas del navegador en la seccion de Network.
+
 
