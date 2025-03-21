@@ -24,6 +24,6 @@ export class AuthController {
   async login(@Body() loginDto: LoginDto, @Res() res: Response) {
     const token = await this.authService.login(loginDto);
     res.cookie('jwt', token, { httpOnly: true });
-    res.json({ message: 'Inicio de sesión exitoso', jwt: token });
+    res.json({ message: 'Inicio de sesión exitoso'});
   }
 }
